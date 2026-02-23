@@ -42,9 +42,9 @@ This project fulfills the following requirements:
 
 ---
 
-## 🏗 Constructors
+##  Constructors
 
-### ✅ Default Constructor
+###  Default Constructor
 
 ```csharp
 Fraction()
@@ -71,7 +71,7 @@ Fraction(int numerator, int denominator)
 
 ##  Methods
 
-### 🔹 `void Simplify()`
+###  `void Simplify()`
 
 Reduces the fraction to its simplest form using GCD.
 
@@ -83,7 +83,7 @@ Example:
 
 ---
 
-### 🔹 `void Display()`
+###  `void Display()`
 
 Prints fraction in the format:
 
@@ -93,7 +93,7 @@ Prints fraction in the format:
 
 ---
 
-### 🔹 `static int GetFractionCount()`
+###  `static int GetFractionCount()`
 
 Returns the number of created Fraction objects.
 
@@ -144,7 +144,7 @@ a/b ÷ c/d = (a × d) / (b × c)
 
 ---
 
-## 🔍 Comparison Logic
+##  Comparison Logic
 
 Fractions are compared using cross multiplication:
 
@@ -154,7 +154,7 @@ a/b < c/d  if  a×d < c×b
 
 ---
 
-## 🚀 Example Usage
+##  Example Usage
 
 ```csharp
 Fraction f1 = new Fraction(5, 10);
